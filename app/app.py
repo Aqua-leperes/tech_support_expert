@@ -6,8 +6,7 @@ from pyswip import Prolog
 # PROLOG SETUP
 # -------------------------
 prolog = Prolog()
-kb_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../kb/tech_kb.pl"))
-prolog.consult(kb_path)
+prolog.consult("tech_kb.pl")
 
 # -------------------------
 # PAGE CONFIG
